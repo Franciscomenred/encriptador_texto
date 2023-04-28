@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/Logo.png" alt="Logo"> 
+    </header>
+
+   <main>
+        <section class="encriptar">
+            <textarea id="introducir-texto" class="textarea" type="mensaje" cols="50" rows="10" placeholder="Ingrese tu Texto Aquí"></textarea>
+                 <div class="alerta">
+                    <p><img src="img/Vector.png" alt="Vector" SOLO> SOLO LETRAS MINÚSCULAS Y SIN ACENTOS</p>
+                 </div>
+
+                <div class="btn-conteiner">
+                  <button id="btn1" class="btn1">ENCRIPTAR</button>
+                     <button id="btn2"class="btn2">DESENCRIPTAR</button>
+                </div>
+        </section>
+
+        <section class="rectangulo1">
+            <div id="conteiner-resultado">
+                <h2 id="titulo-resultado"></h2>
+            </div>
+
+            <div id="imag" class="conteinerImg">
+                <img src="img/Muñeco.png" alt="Muñeco">
+                <p  class="text1"><strong>Ningún Mensaje Fue Encontrado</strong></p>
+                <p class="text2">Ingresa el Mensaje que Deseas Encriptar o Desencriptar</p>
+            </div>
+            
+            <textarea id="resultado" readonly></textarea>
+            <button id="btn-copy" class="btnCopy">COPIAR</button>
+           
+        </section>
+
+</main> 
+<footer>DESARROLLADO POR <br> FRANCISCO MENDOZA REBOLLEDO</footer>
+
+<script src="index.js"></script>
+
+</body>
+
+</html>
+
